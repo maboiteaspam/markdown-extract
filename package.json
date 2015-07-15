@@ -1,7 +1,7 @@
 {
   "name": "markdown-extract",
   "version": "0.0.1",
-  "description": "to write",
+  "description": "Extract portions of text fro ma markdown content",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
