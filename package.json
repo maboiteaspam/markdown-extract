@@ -1,6 +1,6 @@
 {
   "name": "markdown-extract",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract portions of text fro ma markdown content",
   "main": "index.js",
   "scripts": {
