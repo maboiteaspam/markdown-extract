@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "to write",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "bin": {},
   "keywords": [
     "To",
@@ -20,7 +22,9 @@
     "url": "https://github.com/maboiteaspam/markdown-extract/issues"
   },
   "dependencies": {
-    "commander": "^2.8.1"
+    "commander": "^2.8.1",
+    "marked": "^0.3.3",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "should": "^7.0.2"
