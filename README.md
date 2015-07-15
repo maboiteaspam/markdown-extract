@@ -9,6 +9,14 @@ Run the following commands to download and install the application:
 $ npm i markdown-extract --save
 ```
 
+## Usage
+
+```js
+    var mdExtract = require('markdown-extract')
+    
+    mdExtract ({type: /heading/, text: /Usage/, gnp: true}).join('\n')
+```
+
 ## Documentation
 
 It exposes an unique function, with three signatures
@@ -26,16 +34,20 @@ This function parses the markdown content, searching for nodes that matches your
 It will return only their text, as an array of string, in order of appearance in the file.
 
 ##### __what__
-* if it s a string or a regexp, it selects nodes with matching type or text property
-* if it s an array of string, it selects nodes of those types
-* if it s a number, it selects nodes with given depth
-* if it s a object, then it can have type/text/depth properties with values that matches above logic.
-* if it s a object, and it s have a property (`grepNextParagraph` || `gnp`)==`true`, 
+* if it s a `string` or a `regexp`, it selects nodes with matching type or text property
+* if it s an `array of string`, it selects nodes of those types
+* if it s a `number`, it selects nodes with given depth
+* if it s an `object`, then it can have type/text/depth properties with values that matches above logic.
+* if it s an `object`, and it s have a property (`grepNextParagraph` || `gnp`)==`true`, 
 then, the search is made based on `heading` nodes, 
 the results is al the following text of each matched `heading`.
 
-Last options is the most interesting to me as you can match a `heading` such `## Usage`, 
+The last option is the most interesting to me as you can match a `heading` such `## Usage`, 
 but gets only it s following `text`.
+
+```
+mdExtract ({type: /heading/, text: /Usage/, gnp: true}).join('\n')
+```
 
 ## How to contribute
 
