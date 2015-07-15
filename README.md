@@ -1,6 +1,6 @@
 # markdown-extract
 
-A module on top of https://github.com/chjj/marked to extract a paragraph from your markdown.
+A module on top of [chjj/marked](https://github.com/chjj/marked) to extract a paragraph from your markdown.
 
 ## Installation
 Run the following commands to download and install the application:
@@ -16,6 +16,9 @@ $ npm i markdown-extract --save
     
     mdExtract ({type: /heading/, text: /Usage/, gnp: true}).join('\n')
 ```
+
+See more in the [test suite](https://github.com/maboiteaspam/markdown-extract/blob/master/test/index.js) a
+nd it s [markdown version](https://github.com/maboiteaspam/markdown-extract/blob/master/mocha.md).
 
 ## Documentation
 
