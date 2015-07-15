@@ -1,0 +1,28 @@
+{
+  "name": "markdown-extract",
+  "version": "0.0.1",
+  "description": "to write",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {},
+  "keywords": [
+    "To",
+    "be",
+    "done"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF",
+  "homepage": "https://github.com/maboiteaspam/markdown-extract#readme",
+  "repository": {
+    "url": "https://github.com/maboiteaspam/markdown-extract"
+  },
+  "bugs": {
+    "url": "https://github.com/maboiteaspam/markdown-extract/issues"
+  },
+  "dependencies": {
+    "commander": "^2.8.1"
+  },
+  "devDependencies": {
+    "should": "^7.0.2"
+  }
+}
