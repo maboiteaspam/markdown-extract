@@ -1,3 +1,15 @@
+:package: patch v1.0.2
+
+Add a binary interface, now it s possible to do
+```sh
+cat README.md | md-extract <section name>
+```
+
+Commits
+
+* [[aab66629de](https://github.com/maboiteaspam/markdown-extract/commit/aab66629de) - Add a binary interface (clement) 
+* [[7c3fb333e5](https://github.com/maboiteaspam/markdown-extract/commit/7c3fb333e5) - patch v1.0.1 (clement) 
+
 :package: patch v1.0.1
 
 ```
