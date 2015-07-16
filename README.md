@@ -1,15 +1,23 @@
 # markdown-extract
 
-A module on top of [chjj/marked](https://github.com/chjj/marked) to extract a paragraph from your markdown.
+A command line tool to extract a paragraph from a markdown content.
+
+## Usage
+
+```sh
+    cat README.md | md-extract <what> 
+```
 
 ## Installation
 Run the following commands to download and install the application:
 
 ```sh
-npm i markdown-extract --save
+npm i markdown-extract -g
 ```
 
-## Usage
+## API
+
+It also provide an api which provides more options than the binnary interface.
 
 ```js
     var mdExtract = require('markdown-extract')
@@ -17,8 +25,8 @@ npm i markdown-extract --save
     mdExtract ({type: /heading/, text: /Usage/, gnp: true}).join('\n')
 ```
 
-See more in the [test suite](https://github.com/maboiteaspam/markdown-extract/blob/master/test/index.js) a
-nd it s [markdown version](https://github.com/maboiteaspam/markdown-extract/blob/master/mocha.md).
+See more in the [test suite](https://github.com/maboiteaspam/markdown-extract/blob/master/test/index.js) 
+and it s [markdown version](https://github.com/maboiteaspam/markdown-extract/blob/master/mocha.md).
 
 ## Documentation
 

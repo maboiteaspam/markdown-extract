@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
-  "bin": {},
+  "bin": {
+    "md-extract": "./bin/md-extract.js"
+  },
   "keywords": [
     "To",
     "be",
@@ -22,7 +24,7 @@
     "url": "https://github.com/maboiteaspam/markdown-extract/issues"
   },
   "dependencies": {
-    "commander": "^2.8.1",
+    "byline": "^4.2.1",
     "marked": "^0.3.3",
     "underscore": "^1.8.3"
   },
