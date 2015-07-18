@@ -17,7 +17,7 @@ npm i markdown-extract -g
 
 ## API
 
-It also provide an api which provides more options than the binnary interface.
+It also provide an api which provides more options than the binary interface.
 
 ```js
     var mdExtract = require('markdown-extract')
